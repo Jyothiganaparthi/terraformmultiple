@@ -1,6 +1,6 @@
 region = "us-east-2"
-access_key = "AKIA2NHV5FNIWCYA2NX6"
-secret_key = "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"
+#access_key = "AKIA2NHV5FNIWCYA2NX6"
+#secret_key = "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"
 vpc-cidr = "10.0.0.0/16"
 vpc-name = "dev-vpc"
 igw = "dev-gate"
