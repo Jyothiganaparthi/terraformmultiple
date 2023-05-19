@@ -1,7 +1,7 @@
 node{
 tool name: 'Terraform', type: 'terraform'
 stage('gitcheckout'){
-git branch: 'main', credentialsId: 'github', url: 'https://github.com/Jyothiganaparthi/terraform4.git'
+git branch: 'master', credentialsId: 'github', url: 'https://github.com/Jyothiganaparthi/terraformmultiple.git'
 }
 stage('init'){
 sh 'terraform init -reconfigure'
